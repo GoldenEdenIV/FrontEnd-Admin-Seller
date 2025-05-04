@@ -1,3 +1,8 @@
+# Vấn đề quan trọng
+Lạy hồn CSS. Hỗn mang đa zũ chụ alime CSS. Ê copy reuse lại thì cũng cũng... khó lói.
+==. t sửa CSS trang UserManagement mà nó nằm trong file orders.css và muôn hình vạn trạng như z =))???
+Mấy cái giống nhau thì hong để class giống đâu =)) trông khi khác thì để giống, vl sửa banh mẹ xác =))
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

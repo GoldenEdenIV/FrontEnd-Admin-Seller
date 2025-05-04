@@ -200,8 +200,8 @@ const UserManagement = () => {
     }
 
     // Nếu người dùng không đăng nhập hoặc không phải admin
-    if (!user || !isAdmin()) {
-        return <Navigate to="/login" replace />;
+   if (!user || !isAdmin()) {
+       return <Navigate to="/login" replace />;
     }
 
     return (

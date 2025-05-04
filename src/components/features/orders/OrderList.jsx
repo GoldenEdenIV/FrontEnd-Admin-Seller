@@ -132,8 +132,10 @@ const OrderList = ({orders, isLoading, onStatusChange, onDeleteOrder}) => {
     };
 
     return (
+        <div>
+        <h2>Danh sách đơn hàng</h2>
         <div className="orders-table-container">
-            <h2>Danh sách đơn hàng</h2>
+            
 
             {/* Modal chi tiết đơn hàng */}
             {selectedOrder && (
@@ -188,6 +190,7 @@ const OrderList = ({orders, isLoading, onStatusChange, onDeleteOrder}) => {
                     </tbody>
                 </table>
             )}
+        </div>
         </div>
     );
 };

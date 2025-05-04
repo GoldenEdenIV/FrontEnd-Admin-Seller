@@ -25,17 +25,15 @@ const UserFilters = ({onSearch, onRoleFilter, selectedRole}) => {
                 </div>
             </form>
 
-            <div className="filter-dropdown">
                 <select
                     value={selectedRole}
                     onChange={(e) => onRoleFilter(e.target.value)}
-                    className="role-filter"
+                    className="export-btn"
                 >
                     <option value="">Tất cả vai trò</option>
                     <option value="CUSTOMER">Khách hàng</option>
                     <option value="SELLER">Người bán</option>
                 </select>
-            </div>
 
             <button className="export-btn">
                 Xuất báo cáo
